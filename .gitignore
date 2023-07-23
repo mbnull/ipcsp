@@ -1,0 +1,10 @@
+.vscode
+results/
+__pycache__/
+
+model.lp
+gulp*
+
+ipcsp/data/*
+
+grbnodes0

@@ -3,11 +3,11 @@ import numpy as np
 import os
 
 from ipcsp import root_dir
-from ipcsp.matrix_generator import Phase, get_Ewald, get_Buck, get_garnet
+from matrix_generator import Phase, get_Ewald, get_Buck, get_garnet
 import ase
-from ipcsp.grids_and_symmetry import cubic
+from grids_and_symmetry import cubic
 import json
-from ipcsp.lp_to_bqm import BQM
+from lp_to_bqm import BQM
 
 griddir = root_dir / 'data/grids/'
 

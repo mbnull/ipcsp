@@ -16,7 +16,7 @@ import numpy as np
 import os
 
 from ipcsp import root_dir
-from ipcsp.grids_and_symmetry import cubic
+from grids_and_symmetry import cubic
 import math
 from numba import jit, njit
 from time import sleep, time
